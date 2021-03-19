@@ -218,7 +218,7 @@ a.navbar-brand img {
   margin: 0;
 }
 .masthead {
-  background-image: url('https://ramanaidu7.github.io/E-Portfolio/images/Banner2.png');
+  background-image: url(https://ramanaidu7.github.io/E-Portfolio/images/Banner2.png);
   background-size: cover;
   background-position: 100% 0;
   background-repeat: no-repeat;
