@@ -218,7 +218,7 @@ a.navbar-brand img {
   margin: 0;
 }
 .masthead {
-  background-image: url('https://ramanaidu7.github.io/E-Portfolio/images/Banner.png');
+  background-image: url('https://ramanaidu7.github.io/E-Portfolio/images/Banner2.png');
   background-size: cover;
   background-position: 100% 0;
   background-repeat: no-repeat;
@@ -226,6 +226,11 @@ a.navbar-brand img {
   margin-top: -8%;
   padding-bottom: 20%;
   margin-bottom: 5%;
+}
+.gif_img{
+  background-image: url('file:///G:/Portfolio/Developer%20activity.gif');
+  background-size: auto;
+  background-position: left;
 }
 .homeleftText {
     margin-top: 55%;
