@@ -286,6 +286,20 @@ a.lets_talk:hover, a.more:hover {
     border: solid 1px #AFC3FC;
     transition: ease-in 0.5s;
 }
+.socal_follow {
+    /* top: 35rem; */
+    position: relative;
+    /* right: 2rem; */
+    /* height: 30px; */
+    text-align: right;
+}
+img.icon_img {
+    display: block;
+    /* width: 21px; */
+    margin-bottom: 6rem;
+    display: inline-block;
+    margin-left: 6rem;
+}
 .portfolioSect1 {
     width: 85%;
     margin: 0 auto;
