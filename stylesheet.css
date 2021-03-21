@@ -310,17 +310,16 @@ img.icon_in, img.icon_insta, img.icon_whtspp {
 .port_prax_img1 {
     background-image: url(https://ramanaidu7.github.io/E-Portfolio/images/MM.png);
     background-size: cover;
-    background-attachment: fixed;
     padding-bottom: 100%;
-    background-position: right 10%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .port_prax_img2 {
     background-image: url(https://ramanaidu7.github.io/E-Portfolio/images/kenarika.png);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: unset;
     padding-bottom: 100%;
-    background-position: right 10%;
+    background-position: 28%;
     background-repeat: no-repeat;
 }
 img.shea_img, img.ark_img, img.slid1 {
