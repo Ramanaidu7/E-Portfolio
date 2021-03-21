@@ -10,7 +10,7 @@
 
 <!-- Stylesheet -->
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
 <!-- font link -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap" rel="stylesheet">
@@ -21,8 +21,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!-- nav scroll color -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+
  
-  
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
         <div class="cursor">
@@ -41,7 +43,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand animate__animated animate__fadeInUp" href="#myPage"><img src="images/ramlogo.png"> </a>
+      <a class="navbar-brand animate__animated animate__fadeInUp" href="#myPage"><img class="logo_main" src="images/ramlogo.png"> </a>
       <div id="menuToggle" class="hover animate__animated animate__fadeInUp" >
 
     <input type="checkbox">
@@ -70,19 +72,20 @@
 <header class="masthead">
     <div class="gif_img">
       <div class="container">
+        <div class="text_type">
+  <h1 class="typing"></h1>
+  
+</div>
         <div class="row homeMain">
-          
-           <div class="col-md-6 homeleftText slideanim">
-             <h3>In a market full of casuals...</h3>
-             <h1>We help create<br>culture for brands.</h1>
-             <h3>Through strategic branding, advertising,<br>and digital marketing services.</h3>
+           <div class="banner_header slideanim">
+             <h1>Looking for a <br><span class="high_light">Creative Website</span><br> for your Brand...!!!</h1>
+             <h3>You have made right choose. Get your Website go live..... </h3>
+             <div class="list_btn">
+              <a href="#" class="lets_talk">Let's Talk</a><a href="#" class="more">Read More</a>
+             </div>
           </div>
-          <div class="col-md-6 homeRightText slideanim">
-            <p>In the ever fluctuating economic and business conditions,
-              we help organisations and brands observe and act upon possible opportunities
-              (which are aplenty today!), to not just sustain in the market, but create a new space
-              for themselves and soar beyond the conventional industry boundaries.
-            </p>
+          <div class="socal_follow">
+            <a href="#" class="social_banner"><img class="icon_img" src="file:///G:/Portfolio/newpage-master/images/linkedin.png"></a> <a href="#" class="social_banner"><img class="icon_img" src="file:///G:/Portfolio/newpage-master/images/instagram.png"></a> <a href="#" class="social_banner"><img class="icon_img" src="file:///G:/Portfolio/newpage-master/images/whatsapp.png"></a>
             
           </div>
         </div>
@@ -137,45 +140,7 @@
   </div>
 </div><br>
 
-      
-      <div class="container">
-        <div class="row testiAdunit slideanim">
-  <h2>Client's Say</h2>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner slideanim">
-      <div class="item active">
-         <h4>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.”<br><span class="clnt_name">John Ivne</span><br><span class="clnt_cmp">Vice President</span></h4>
-      </div>
-
-      <div class="item">
-        <h4>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.”<br><span class="clnt_name">John Ivne</span><br><span class="clnt_cmp">Vice President</span></h4>
-      </div>
-    
-      <div class="item">
-       <h4>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.”<br><span class="clnt_name">John Ivne</span><br><span class="clnt_cmp">Vice President</span></h4>
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
-</div>
     
 
 
@@ -253,20 +218,35 @@ $(document).ready(function(){
     });
   });
 })
+
+
 </script>
 
 <script>
   
 $(window).on('scroll', function () {
 if ($(this).scrollTop() > 140) {
-    $('.navbar').addClass("shrink animate__animated animate__fadeIn");
-    $('.navbar-brand  img').attr('src', 'https://ramanaidu7.github.io/E-Portfolio/images/rnlogo.png');
+    $('.navbar').addClass("shrink animate__animated animate__fadeIn rnlogo");
+    // $('.navbar-brand  img').attr('src', 'https://ramanaidu7.github.io/E-Portfolio/images/rnlogo.png');
 }else{
-    $('.navbar').removeClass("shrink animate__animated animate__fadeIn");
-    $('.navbar-brand  img').attr('src', 'https://ramanaidu7.github.io/E-Portfolio/images/ramlogo.png');
+    $('.navbar').removeClass("shrink animate__animated animate__fadeout ramlogo");
+    // $('.navbar-brand  img').attr('src', 'https://ramanaidu7.github.io/E-Portfolio/images/ramlogo.png');
 }
 });
 </script>
+
+<script>
+  let typed = new Typed(".typing", {
+    strings: ["Hi I am Rama Naidu.", "I am a Web Developer.", "I am a Graphic Designer."],
+    typeSpeed: 200,
+    backSpeed: 90,
+    loop: true,
+  });
+
+</script>
+
+
+
 
 </body>
 </html>

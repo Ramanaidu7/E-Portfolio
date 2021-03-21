@@ -1,13 +1,15 @@
 /***********nav bar style*************/
-.navbar-default {
+/*.navbar-default {
      background-image: radial-gradient(circle, #250d59, #191147, #121134, #100e21, #080809);
     transition: ease-in-out 1s;
     border: none;
-}
+}*/
 .navbar.navbar-default {
     height: 100px;
     margin: 0;
     padding-left: 7%;
+    background-color: transparent;
+    border: none;
 }
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1500px;
@@ -20,7 +22,8 @@
 }
 /********cursor style********/
 .shrink {
-    background-image: radial-gradient(circle, #250d59, #191147, #121134, #100e21, #080809);
+    /*background-image: radial-gradient(circle, #250d59, #191147, #121134, #100e21, #080809);*/
+    background-color: #fff !important;
     transition: ease-in-out 1s;
 }
 body{
@@ -109,7 +112,7 @@ a:hover
   height: 4px;
   margin-bottom: 5px;
   position: relative;  
-  background: #cdcdcd;
+  background: #3654B3;
   border-radius: 3px;  
   z-index: 1;  
   transform-origin: 4px 0px;  
@@ -217,7 +220,7 @@ a.navbar-brand img {
 .homeMain{
   margin: 0;
 }
-.masthead {
+/*.masthead {
   background-image: url(https://ramanaidu7.github.io/E-Portfolio/images/Banner2.png);
   background-size: cover;
   background-position: 100% 0;
@@ -226,38 +229,62 @@ a.navbar-brand img {
   margin-top: -8%;
   padding-bottom: 20%;
   margin-bottom: 5%;
+}*/
+.masthead {
+    background-image: url(file:///G:/Portfolio/newpage-master/images/Banner3.png);
+    background-size: 100%;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    padding-bottom: 48rem;
 }
 /*.gif_img{
   background-image: url('file:///G:/Portfolio/Developer%20activity.gif');
   background-size: auto;
   background-position: left;
 }*/
-.homeleftText {
-    margin-top: 55%;
-    padding-left: 8%;
-
+.banner_header {
+    position: relative;
+    top: 26rem;
+    left: 60rem;
 }
-.homeRightText {
-    color: #8d8d8d;
-    margin-top: 46%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;/*
-    animation: fadeInUp;
-  animation-duration: 5s;
-  -webkit-animation-duration: 5s; 
-  animation-delay: 1s;
-  -webkit-animation-delay: 1s;*/
+span.high_light {
+    font-weight: 900;
+    color: orange;
+    font-family: 'Quicksand';
 }
-.homeleftText h3 {
-    font-family: 'Open Sans', sans-serif;
-    color: #8d8d8d;
+.banner_header h1 {
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 70px;
+    color: orange;
+}
+.banner_header h3 {
+    font-family: 'Quicksand';
     font-size: 24px;
+    font-weight: 600;
 }
-.homeleftText h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 64px;
-    letter-spacing: -3px;
+.list_btn {
+    margin-top: 3%;
+}
+a.more {
+    margin-left: 5%;
+}
+a.lets_talk, a.more {
+    color: #000;
+    font-size: 16px;
+    font-family: montserrat;
+    border: solid 1px #000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 32px;
+    text-decoration: none;
+    transition: ease-in 0.5s;
+}
+a.lets_talk:hover, a.more:hover {
     color: #fff;
+    background-color: #AFC3FC;
+    border: solid 1px #AFC3FC;
+    transition: ease-in 0.5s;
 }
 .portfolioSect1 {
     width: 85%;
@@ -403,7 +430,7 @@ img.img_adunit {
 }
 .menuList:hover ~ .cursor{
 
-	transform: translate(-50%, -50%) scale(8);
+  transform: translate(-50%, -50%) scale(8);
 }
 
 
@@ -615,7 +642,9 @@ div#slider figure {
 
 
 
-
+img.logo_main {
+    width: 18%;
+}
 
 
 /*body a {
@@ -637,3 +666,44 @@ body .cursor__ball {
 body .cursor__ball circle {
   fill: #f7f8fa;
 }*/
+
+
+
+
+.text_type {
+    position: relative;
+    top: 24rem;
+    text-align: center;
+}
+.typing {
+    color: #000;
+    font-family: montserrat;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #ffd700, #ffc500, #ffb300, #ffa100, #ff8f00, #ff8300, #ff7601, #ff6806, #ff5c0d, #ff5013, #ff4119, #ff2f1e);
+    /* background-image: linear-gradient(to bottom, #ffd700, #ffc500, #ffb300, #ffa100, #ff8f00, #ff8300, #ff7601, #ff6806, #ff5c0d, #ff5013, #ff4119, #ff2f1e); */
+}
+.typing::after {
+  content: '';
+  height: 100%;
+  padding: 2px;
+  margin-left: 10px;
+  background-color: #05ccc2;
+  animation: typing 1.2s ease infinite;
+}
+span.typed-cursor {
+  display:none;
+}
+
+
+@keyframes typing {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
