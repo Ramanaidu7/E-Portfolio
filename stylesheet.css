@@ -331,14 +331,15 @@ img.shea_img, img.ark_img, img.slid1 {
 .portf_text p {
     font-size: 20px;
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    font-family: montserrat;
     margin: 0;
 }
 .portf_text h1 {
-    font-size: 64px;
-    font-weight: 300;
-    font-family: 'Quicksand', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    font-family: montserrat;
     margin: 0;
+    letter-spacing: -5px;
 }
 .port_prax_img3 {
     background-image: url(https://ramanaidu7.github.io/E-Portfolio/images/i95dev.png);
