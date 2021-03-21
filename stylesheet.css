@@ -343,10 +343,11 @@ img.shea_img, img.ark_img, img.slid1 {
 }
 .port_prax_img3 {
     background-image: url(https://ramanaidu7.github.io/E-Portfolio/images/i95dev.png);
-    background-size: cover;
+    background-size: 69%;
     background-attachment: fixed;
     padding-bottom: 40%;
-    background-position: right 10%;
+    background-position: right -6%;
+    background-repeat: no-repeat;
 }
 span.glyphicon.glyphicon-chevron-left, span.glyphicon.glyphicon-chevron-right {
     color: #000;
