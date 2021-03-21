@@ -293,13 +293,13 @@ a.lets_talk:hover, a.more:hover {
     /* height: 30px; */
     text-align: right;
 }
-img.icon_img {
+/*img.icon_img {
     display: block;
-    /* width: 21px; */
+     width: 21px; 
     margin-bottom: 6rem;
     display: inline-block;
     margin-left: 6rem;
-}
+}*/
 .portfolioSect1 {
     width: 85%;
     margin: 0 auto;
