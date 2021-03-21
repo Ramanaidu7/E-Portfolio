@@ -235,7 +235,7 @@ a.navbar-brand img {
     background-size: 100%;
     background-position: 100% 0%;
     background-repeat: no-repeat;
-    padding-bottom: 48rem;
+    padding-bottom: 20rem;
 }
 /*.gif_img{
   background-image: url('file:///G:/Portfolio/Developer%20activity.gif');
@@ -287,19 +287,17 @@ a.lets_talk:hover, a.more:hover {
     transition: ease-in 0.5s;
 }
 .socal_follow {
-    /* top: 35rem; */
-    position: relative;
-    /* right: 2rem; */
-    /* height: 30px; */
     text-align: right;
+    display: grid;
+    justify-content: right;
 }
-/*img.icon_img {
-    display: block;
-     width: 21px; 
-    margin-bottom: 6rem;
-    display: inline-block;
-    margin-left: 6rem;
-}*/
+img.icon_in, img.icon_insta, img.icon_whtspp {
+    width: 20px;
+    position: relative;
+    top: 18rem;
+    right: 8rem;
+    margin-bottom: 7rem;
+}
 .portfolioSect1 {
     width: 85%;
     margin: 0 auto;
